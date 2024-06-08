@@ -10,6 +10,8 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
+    
+    fileprivate var appCoordinator: AppCoordinator?
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
@@ -19,9 +21,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let scene = (scene as? UIWindowScene) else { return }
         window = UIWindow(frame: scene.coordinateSpace.bounds)
         window?.windowScene = scene
-        let itemListViewModel = ItemListViewModel(model: ItemListModel())
-        let navigation = UINavigationController(rootViewController: ItemListViewConrtoller(viewModel: itemListViewModel))
-        window?.rootViewController = navigation
+        
+        appCoordinator = CoordinatorsFactory().createAppCoordinator(navigationController:UINavigationController())
+        
+//        let itemListViewModel = ItemListViewModel(model: ItemListModel())
+//        let navigation = UINavigationController(rootViewController: ItemListViewConrtoller(viewModel: itemListViewModel))
+        window?.rootViewController = appCoordinator?.navigationController
+        appCoordinator?.start()
         window?.makeKeyAndVisible()
         
     }

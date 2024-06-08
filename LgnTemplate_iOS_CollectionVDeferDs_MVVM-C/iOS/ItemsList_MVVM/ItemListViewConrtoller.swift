@@ -13,7 +13,7 @@ fileprivate typealias DataSourceSnapshot = NSDiffableDataSourceSnapshot<ItemList
 
 
 class ItemListViewConrtoller: UIViewController {
-
+    var completionHandler: (() -> ())? 
     let cellId = "cellId"
     private var viewModel: ItemListViewModel
     private var dataSource: ItemsDataSource!

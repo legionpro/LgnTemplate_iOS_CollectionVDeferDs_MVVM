@@ -28,6 +28,20 @@
 		9F7C15CF2C0E0193009DC594 /* iOS_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C15CE2C0E0193009DC594 /* iOS_UITestsLaunchTests.swift */; };
 		9F7C15DC2C0E0E60009DC594 /* ItemListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C15DB2C0E0E60009DC594 /* ItemListModel.swift */; };
 		9F7C15DE2C0E0F0D009DC594 /* ItemViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C15DD2C0E0F0D009DC594 /* ItemViewCell.swift */; };
+		9F9F33D92C14B6F500DC3B87 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9F33D82C14B6F500DC3B87 /* UserData.swift */; };
+		9F9F33DC2C14B7BC00DC3B87 /* PhoneNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9F33DB2C14B7BC00DC3B87 /* PhoneNumberViewController.swift */; };
+		9F9F33DE2C14B7D800DC3B87 /* PhoneConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9F33DD2C14B7D800DC3B87 /* PhoneConfirmViewController.swift */; };
+		9F9F33E02C14B7E900DC3B87 /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9F33DF2C14B7E900DC3B87 /* PasswordViewController.swift */; };
+		9F9F33E42C14B85500DC3B87 /* NameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9F33E32C14B85500DC3B87 /* NameViewController.swift */; };
+		9F9F33E62C14B87400DC3B87 /* BirthdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9F33E52C14B87400DC3B87 /* BirthdayViewController.swift */; };
+		9F9F33E82C14C2AC00DC3B87 /* CoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9F33E72C14C2AC00DC3B87 /* CoordinatorProtocol.swift */; };
+		9F9F33EB2C14C3CC00DC3B87 /* RegistrationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9F33EA2C14C3CC00DC3B87 /* RegistrationCoordinator.swift */; };
+		9F9F33EE2C14C55400DC3B87 /* RegistrationModuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9F33ED2C14C55400DC3B87 /* RegistrationModuleFactory.swift */; };
+		9F9F33F02C14C6D700DC3B87 /* FlowControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9F33EF2C14C6D700DC3B87 /* FlowControllerProtocol.swift */; };
+		9F9F33F22C14D27D00DC3B87 /* CoordinatorsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9F33F12C14D27D00DC3B87 /* CoordinatorsFactory.swift */; };
+		9F9F33F42C14DAD300DC3B87 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9F33F32C14DAD300DC3B87 /* AppCoordinator.swift */; };
+		9F9F33F62C14E6A900DC3B87 /* ItemListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9F33F52C14E6A900DC3B87 /* ItemListCoordinator.swift */; };
+		9F9F33F82C14E77F00DC3B87 /* ItemsModuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9F33F72C14E77F00DC3B87 /* ItemsModuleFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +87,20 @@
 		9F7C15CE2C0E0193009DC594 /* iOS_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9F7C15DB2C0E0E60009DC594 /* ItemListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListModel.swift; sourceTree = "<group>"; };
 		9F7C15DD2C0E0F0D009DC594 /* ItemViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewCell.swift; sourceTree = "<group>"; };
+		9F9F33D82C14B6F500DC3B87 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		9F9F33DB2C14B7BC00DC3B87 /* PhoneNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberViewController.swift; sourceTree = "<group>"; };
+		9F9F33DD2C14B7D800DC3B87 /* PhoneConfirmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneConfirmViewController.swift; sourceTree = "<group>"; };
+		9F9F33DF2C14B7E900DC3B87 /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
+		9F9F33E32C14B85500DC3B87 /* NameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameViewController.swift; sourceTree = "<group>"; };
+		9F9F33E52C14B87400DC3B87 /* BirthdayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayViewController.swift; sourceTree = "<group>"; };
+		9F9F33E72C14C2AC00DC3B87 /* CoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocol.swift; sourceTree = "<group>"; };
+		9F9F33EA2C14C3CC00DC3B87 /* RegistrationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationCoordinator.swift; sourceTree = "<group>"; };
+		9F9F33ED2C14C55400DC3B87 /* RegistrationModuleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationModuleFactory.swift; sourceTree = "<group>"; };
+		9F9F33EF2C14C6D700DC3B87 /* FlowControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowControllerProtocol.swift; sourceTree = "<group>"; };
+		9F9F33F12C14D27D00DC3B87 /* CoordinatorsFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorsFactory.swift; sourceTree = "<group>"; };
+		9F9F33F32C14DAD300DC3B87 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		9F9F33F52C14E6A900DC3B87 /* ItemListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListCoordinator.swift; sourceTree = "<group>"; };
+		9F9F33F72C14E77F00DC3B87 /* ItemsModuleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsModuleFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +142,7 @@
 			children = (
 				9F087AC72C1051D400876713 /* NetworkResponses.swift */,
 				9F087ACA2C10537700876713 /* ItemDataModel.swift */,
+				9F9F33D82C14B6F500DC3B87 /* UserData.swift */,
 			);
 			path = DataModels;
 			sourceTree = "<group>";
@@ -136,6 +165,8 @@
 				9F0B520E2C0E60C6008A0275 /* ItemModelProtocol.swift */,
 				9F087AC32C104D4F00876713 /* NetworkServiceProtocol.swift */,
 				9F087ACC2C10542600876713 /* ItemDataMapperProtocol.swift */,
+				9F9F33E72C14C2AC00DC3B87 /* CoordinatorProtocol.swift */,
+				9F9F33EF2C14C6D700DC3B87 /* FlowControllerProtocol.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -175,6 +206,9 @@
 			children = (
 				9F7C15AB2C0E0191009DC594 /* AppDelegate.swift */,
 				9F7C15AD2C0E0191009DC594 /* SceneDelegate.swift */,
+				9F9F33EC2C14C52B00DC3B87 /* Factories */,
+				9F9F33E92C14C39400DC3B87 /* Coordinators */,
+				9F9F33DA2C14B79200DC3B87 /* RegistrationScreens */,
 				9F087AC92C10535400876713 /* DataModels */,
 				9F087AC02C104AF700876713 /* Services */,
 				9F0B52042C0E5069008A0275 /* Protocols */,
@@ -201,6 +235,38 @@
 				9F7C15CE2C0E0193009DC594 /* iOS_UITestsLaunchTests.swift */,
 			);
 			path = iOS_UITests;
+			sourceTree = "<group>";
+		};
+		9F9F33DA2C14B79200DC3B87 /* RegistrationScreens */ = {
+			isa = PBXGroup;
+			children = (
+				9F9F33DB2C14B7BC00DC3B87 /* PhoneNumberViewController.swift */,
+				9F9F33DD2C14B7D800DC3B87 /* PhoneConfirmViewController.swift */,
+				9F9F33DF2C14B7E900DC3B87 /* PasswordViewController.swift */,
+				9F9F33E32C14B85500DC3B87 /* NameViewController.swift */,
+				9F9F33E52C14B87400DC3B87 /* BirthdayViewController.swift */,
+			);
+			path = RegistrationScreens;
+			sourceTree = "<group>";
+		};
+		9F9F33E92C14C39400DC3B87 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				9F9F33F32C14DAD300DC3B87 /* AppCoordinator.swift */,
+				9F9F33EA2C14C3CC00DC3B87 /* RegistrationCoordinator.swift */,
+				9F9F33F52C14E6A900DC3B87 /* ItemListCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		9F9F33EC2C14C52B00DC3B87 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				9F9F33ED2C14C55400DC3B87 /* RegistrationModuleFactory.swift */,
+				9F9F33F12C14D27D00DC3B87 /* CoordinatorsFactory.swift */,
+				9F9F33F72C14E77F00DC3B87 /* ItemsModuleFactory.swift */,
+			);
+			path = Factories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -333,21 +399,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F087AC82C1051D400876713 /* NetworkResponses.swift in Sources */,
+				9F9F33F82C14E77F00DC3B87 /* ItemsModuleFactory.swift in Sources */,
+				9F9F33F62C14E6A900DC3B87 /* ItemListCoordinator.swift in Sources */,
 				9F0B520D2C0E5A83008A0275 /* ItemModel.swift in Sources */,
+				9F9F33E82C14C2AC00DC3B87 /* CoordinatorProtocol.swift in Sources */,
 				9F7C15B02C0E0191009DC594 /* ItemListViewConrtoller.swift in Sources */,
 				9F0B52092C0E5A5E008A0275 /* ItemViewController.swift in Sources */,
+				9F9F33E42C14B85500DC3B87 /* NameViewController.swift in Sources */,
+				9F9F33E62C14B87400DC3B87 /* BirthdayViewController.swift in Sources */,
+				9F9F33F22C14D27D00DC3B87 /* CoordinatorsFactory.swift in Sources */,
+				9F9F33F42C14DAD300DC3B87 /* AppCoordinator.swift in Sources */,
+				9F9F33DC2C14B7BC00DC3B87 /* PhoneNumberViewController.swift in Sources */,
+				9F9F33EB2C14C3CC00DC3B87 /* RegistrationCoordinator.swift in Sources */,
 				9F087AC62C104F8D00876713 /* NetworkResponcseWrapper.swift in Sources */,
 				9F0B52022C0E4C12008A0275 /* ItemListViewModel.swift in Sources */,
 				9F087AC22C104B1500876713 /* NetworkService.swift in Sources */,
 				9F0B52062C0E509B008A0275 /* ItemListModelProtocol.swift in Sources */,
+				9F9F33F02C14C6D700DC3B87 /* FlowControllerProtocol.swift in Sources */,
 				9F087ACB2C10537700876713 /* ItemDataModel.swift in Sources */,
 				9F7C15AC2C0E0191009DC594 /* AppDelegate.swift in Sources */,
 				9F0B520B2C0E5A70008A0275 /* ItemViewModel.swift in Sources */,
 				9F087ACD2C10542600876713 /* ItemDataMapperProtocol.swift in Sources */,
+				9F9F33DE2C14B7D800DC3B87 /* PhoneConfirmViewController.swift in Sources */,
+				9F9F33D92C14B6F500DC3B87 /* UserData.swift in Sources */,
 				9F7C15DC2C0E0E60009DC594 /* ItemListModel.swift in Sources */,
+				9F9F33E02C14B7E900DC3B87 /* PasswordViewController.swift in Sources */,
 				9F7C15DE2C0E0F0D009DC594 /* ItemViewCell.swift in Sources */,
 				9F0B520F2C0E60C6008A0275 /* ItemModelProtocol.swift in Sources */,
 				9F087AC42C104D4F00876713 /* NetworkServiceProtocol.swift in Sources */,
+				9F9F33EE2C14C55400DC3B87 /* RegistrationModuleFactory.swift in Sources */,
 				9F7C15AE2C0E0191009DC594 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
