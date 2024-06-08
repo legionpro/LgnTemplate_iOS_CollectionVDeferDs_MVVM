@@ -34,6 +34,7 @@ class AppCoordinator: CoordinatorProtocol {
     private func showItemListFlow() {
         guard let navigation = self.navigationController else { return }
         let listCoordinator = CoordinatorsFactory().createItemListCoordinator(navigationController: navigation)
+        childCoordinators = childCoordinators.compactMap{ element in return element as? ItemListCoordinator }
         childCoordinators.append(listCoordinator)
         listCoordinator.flowCompletionHangler = { [weak self] in
         }
@@ -44,6 +45,7 @@ class AppCoordinator: CoordinatorProtocol {
     private func showRegistrationFlow() {
         guard let navigation = self.navigationController else { return }
         let registrationCoordinator = CoordinatorsFactory().createRegistrationCoordinator(navigationController: navigation)
+        childCoordinators = childCoordinators.compactMap{ element in return element as? RegistrationCoordinator }
         childCoordinators.append(registrationCoordinator)
         registrationCoordinator.flowCompletionHangler = { [weak self] in
             self?.isAuth = true

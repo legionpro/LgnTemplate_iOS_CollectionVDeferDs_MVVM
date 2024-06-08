@@ -6,27 +6,27 @@
 //
 
 import UIKit
-
-extension UIView {
-    func fillSuperview(padding: UIEdgeInsets = .zero) {
-        translatesAutoresizingMaskIntoConstraints = false
-        if let superviewTopAnchor = superview?.topAnchor {
-            topAnchor.constraint(equalTo: superviewTopAnchor, constant: padding.top).isActive = true
-        }
-        
-        if let superviewBottomAnchor = superview?.bottomAnchor {
-            bottomAnchor.constraint(equalTo: superviewBottomAnchor, constant: -padding.bottom).isActive = true
-        }
-        
-        if let superviewLeadingAnchor = superview?.leadingAnchor {
-            leadingAnchor.constraint(equalTo: superviewLeadingAnchor, constant: padding.left).isActive = true
-        }
-        
-        if let superviewTrailingAnchor = superview?.trailingAnchor {
-            trailingAnchor.constraint(equalTo: superviewTrailingAnchor, constant: -padding.right).isActive = true
-        }
-    }
-}
+//
+//extension UIView {
+//    func fillSuperview(padding: UIEdgeInsets = .zero) {
+//        translatesAutoresizingMaskIntoConstraints = false
+//        if let superviewTopAnchor = superview?.topAnchor {
+//            topAnchor.constraint(equalTo: superviewTopAnchor, constant: padding.top).isActive = true
+//        }
+//        
+//        if let superviewBottomAnchor = superview?.bottomAnchor {
+//            bottomAnchor.constraint(equalTo: superviewBottomAnchor, constant: -padding.bottom).isActive = true
+//        }
+//        
+//        if let superviewLeadingAnchor = superview?.leadingAnchor {
+//            leadingAnchor.constraint(equalTo: superviewLeadingAnchor, constant: padding.left).isActive = true
+//        }
+//        
+//        if let superviewTrailingAnchor = superview?.trailingAnchor {
+//            trailingAnchor.constraint(equalTo: superviewTrailingAnchor, constant: -padding.right).isActive = true
+//        }
+//    }
+//}
 
 class ItemViewCell: UICollectionViewCell  {
 
@@ -58,7 +58,7 @@ class ItemViewCell: UICollectionViewCell  {
     
     
     lazy var itemImage: UIImageView = {
-        let profileImg = UIImage(systemName: "person.crop.circle")
+        let profileImg = UIImage(systemName: "light.panel.fill")
         let renderedImg = profileImg!.withTintColor(.gray, renderingMode: .alwaysOriginal)
         let imv = UIImageView(image: renderedImg )
         imv.translatesAutoresizingMaskIntoConstraints = false
@@ -103,7 +103,7 @@ class ItemViewCell: UICollectionViewCell  {
     func setupCardCellShadow() {
          backgroundView = UIView()
          addSubview(backgroundView!)
-         backgroundView?.fillSuperview()
+        //backgroundView?.fillSuperview()
          backgroundView?.backgroundColor     = .white
          backgroundView?.layer.cornerRadius  = 26
          backgroundView?.layer.shadowOpacity = 0.1
